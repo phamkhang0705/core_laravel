@@ -1,0 +1,113 @@
+body {
+  background-image: url("/worldcup2018/fwc_darkbluebg.jpg");
+  background-size: cover;
+  background-color: #0D2249;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+  font-size: 1em;
+  font-weight: normal;
+  color: #FFF
+}
+input {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #FFF;
+    border-radius: 4px;
+  text-align: center;
+  font-size: 1.2em;
+}
+input:focus {
+  background-color: lightblue;
+}
+input[type=submit] {
+    background-color: #22adda;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     
+     text-align: center;  
+}
+    button.footer {
+     border: 0;
+}
+.name {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.bang {
+  font-size: 1em;
+  font-weight: normal;
+}
+.gio {
+  font-size: 1em;
+  font-weight: normal;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.flag {
+  max-width: 48px;
+  display: block;
+}
+
+.btnsub{
+  display: block;
+  width: 100%; 
+  border: 0;
+  background-color: #22adda;
+  color: white;
+  text-align: center; 
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 1.4em;
+  background-color: #22adda;
+  color: white;
+}
+
+
+.btnsub:disabled{
+   content: "";
+}
+
+
+
+
+
+.bootbox {
+  color: #000
+}
+
+.bootbox .modal-content{
+  border-radius:0;
+}
+
+.bootbox .modal-footer,
+.bootbox .modal-body,
+.bootbox .modal-header{
+  padding: 10px 15px;
+}
+
+.u_num{
+  background: #df5a49 !important;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  width: 22px;
+  height: 22px;
+  border-radius: 22px;
+  padding: 5px;
+}
