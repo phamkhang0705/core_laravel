@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Deal365 | @yield('title')</title>
+    <title>CMS | @yield('title')</title>
 
     <!-- Favicon-->
     <link rel="icon" href="{{ asset('themes/admin/favicon.ico') }}" type="image/x-icon">

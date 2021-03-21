@@ -11,7 +11,7 @@ class AdminLog extends Model
     protected $connection = 'mysql';
     protected $table = 'admin_log';
     const TABLE = 'admin_log';
-    const TABLE_NAME = 'deal365.admin_log';
+    const TABLE_NAME = 'cms.admin_log';
     public $timestamps = false;
 
     public static function getLog($content_id, $content_type)

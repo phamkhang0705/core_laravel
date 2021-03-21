@@ -18,9 +18,9 @@ class Base extends Controller
             if (!auth()->check()) {
                 return redirect()->action('Cms\Auth@loginForm');
             }
-            //$a = Menu::getListMenuForDisPlay();
+            $menus = Menu::getListMenuForDisPlay();
 
-            view()->share('menus', Menu::getListMenuForDisPlay());
+            view()->share('menus', $menus);
             view()->share('current_path', request()->path());
             return $next($request);
         });

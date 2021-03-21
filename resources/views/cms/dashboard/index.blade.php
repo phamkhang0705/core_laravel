@@ -6,7 +6,7 @@
 
     <div class="container-fluid">
         <div class="block-header">
-            <h2>QUẢN LÝ NỘI DUNG TRANG WEB DEAL 365</h2>
+            <h2>QUẢN LÝ CMS</h2>
         </div>
 
         <!-- Widgets -->

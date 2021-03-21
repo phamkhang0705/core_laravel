@@ -239,6 +239,9 @@ class Menu extends Base
         $menu_2s = array_where($datas,function($key, $value) {
             return $key != 0;
         });
+        // var_dump($menu_1s);
+        // var_dump($menu_2s);
+        // die();
         $total = DB::table(CmsMenuModel::TABLE)->count('id');
 
 

@@ -29,7 +29,7 @@ class Admin extends Model implements AuthenticatableContract, AuthorizableContra
 
     protected $table = 'admin';
     const TABLE = 'admin';
-    const TABLE_NAME = 'deal365.admin';
+    const TABLE_NAME = 'cms.admin';
 
 
     const CREATED_AT = 'created_time';

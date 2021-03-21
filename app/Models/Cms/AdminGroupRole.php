@@ -10,7 +10,7 @@ class AdminGroupRole extends Model
 
     protected $table = 'admin_group_role';
 
-    const TABLE_NAME = 'gigabank_cms.admin_group_role';
+    const TABLE_NAME = 'cms.admin_group_role';
     const TABLE = 'admin_group_role';
 
     const CREATED_AT = 'created_time';
